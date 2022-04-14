@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.play.js"></script>
+    <script src="libraries/p5.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+
+  // Your web app's Firebase configuration
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyAIm1b_YsVFWz-uD6vuhFHTyOEB8c2Xfuk",
+    authDomain: "pro-40-official.firebaseapp.com",
+    databaseURL: "https://pro-40-official-default-rtdb.firebaseio.com",
+    projectId: "pro-40-official",
+    storageBucket: "pro-40-official.appspot.com",
+    messagingSenderId: "116532362872",
+    appId: "1:116532362872:web:55ef1fc8cbeabd0101b78d"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+    </script>
+  </head>
+  <body>
+    <script src="js/game.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/player.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
